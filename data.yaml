@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['accident', 'non-accident']
+
+roboflow:
+  workspace: accident-and-nonaccident
+  project: accident-non-accident-label
+  version: 14
+  license: Public Domain
+  url: https://universe.roboflow.com/accident-and-nonaccident/accident-non-accident-label/dataset/14
